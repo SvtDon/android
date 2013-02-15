@@ -23,7 +23,7 @@
   Nexus Evolution has been successfully sync'd to your computer!
   </notice>
   
-  <project path="build" name="CyanogenMod/android_build">
+  <project path="build" name="android_build" remote="evolution" revision="jb4.2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -286,6 +286,7 @@
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="jb-mr1-release" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
+  <project path="packages/apps/BlackEvo" name="packages_apps_BlackEvo" remote="evolution" revision="jb4.2" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
@@ -378,7 +379,7 @@
 
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
-  <project path="system/core" name="CyanogenMod/android_system_core" />
+  <project path="system/core" name="android_system_core" remote="evolution" revision="jb4.2" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
@@ -387,7 +388,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="tools/build" name="platform/tools/build" remote="aosp" revision="jb-mr1-release" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="jb-mr1-release" />
-  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
+  <project path="vendor/evolution" name="android_vendor_evolution" remote="evolution" revision="jb4.2" />
   
   <!-- Nexus Evolution Vendor Proprietary -->
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="evolution" revision="jb4.2" />
