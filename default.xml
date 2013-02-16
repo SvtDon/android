@@ -388,7 +388,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
-  <project path="vendor/evolution" name="android_vendor_evolution" remote="evolution" revision="jb4.2" />
+  <project path="vendor/evolution" name="vendor_evolution" remote="evolution" revision="jb4.2" />
   
   <!-- Nexus Evolution Vendor Proprietary -->
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="evolution" revision="jb4.2" />
