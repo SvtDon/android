@@ -54,6 +54,7 @@
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="evolution" revision="jb4.2" />
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="evolution" revision="jb4.2" />
   <project path="device/samsung/t0lte" name="android_device_samsung_t0lte" remote="evolution" revision="jb4.2" />
+  <project path="device/samsung/t0ltecdma" name="android_device_samsung_t0ltecdma" remote="evolution" revision="jb4.2" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="evolution" revision="jb4.2" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="evolution" revision="jb4.2" />
   <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" groups="device" />
