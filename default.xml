@@ -5,7 +5,10 @@
            fetch="https://android.googlesource.com/" />
            
   <remote name="evolution"
-            fetch="git://github.com/SvtDon/" />         
+            fetch="git://github.com/SvtDon/" />
+            
+  <remote name="imoseyon"
+            fetch="git://github.com/imoseyon/" />                   
 
   <remote  name="github"
            fetch=".."
@@ -283,7 +286,7 @@
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" />
   <project path="kernel/samsung/d2" name="CyanogenMod/android_kernel_samsung_d2" />
   <project path="kernel/samsung/smdk4412" name="CyanogenMod/android_kernel_samsung_smdk4412" />
-  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="evolution" revision="jb4.2" />
+  <project path="kernel/samsung/tuna" name="leanKernel-galaxy-nexus" remote="imoseyon" revision="lk-jb-mr1" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
