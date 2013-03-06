@@ -401,7 +401,6 @@
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="evolution" revision="jb4.2" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="evolution" revision="jb4.2" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="evolution" revision="jb4.2" />
-  <project path="vendor/trusted_logic" name="proprietary_vendor_trusted_logic" remote="evolution" revision="jb4.2" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="evolution" revision="jb4.2" />
   
   <!-- Nexus Evolution File Manager -->
